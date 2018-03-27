@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --exit"
   },
   "author": "",
   "license": "ISC",
@@ -12,7 +12,10 @@
     "morgan": "^1.9.0",
     "uuid": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wjypark94/blog-api-challenge.git"
